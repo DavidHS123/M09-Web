@@ -13,19 +13,19 @@
         <label for="mapa">Marcar un punt en el mapa </label>
             <input type="checkbox" name="mapa" id="mapa"> <br>
         <label for="seguiment"> Voleu rebre un seguiment? </label>
-            <select id="seguiment" name="seguiment" required>
+            <select id="seguiment" name="seguiment">
                 <option value="" disabled selected>Selecciona una opció</option>
                 <option value="Sí">Sí</option>
                 <option value="No">No</option>
             </select><br>
         <label for="adreça">Adreça de l'avís</label>
-            <input type="text" name="adreça" id="adreça" required><br>
+            <input type="text" name="adreça" id="adreça" ><br>
         <label for="descripcio">Descripció de l'avís:</label>
-            <input type="text" name="descripcio" id="descripcio" required><br>
+            <input type="text" name="descripcio" id="descripcio"><br>
         <label for="nom">Nom</label>
-            <input type="text" name="nom" id="nom" required><br>
+            <input type="text" name="nom" id="nom"><br>
         <label for="cognoms">Cognoms</label>
-            <input type="text" name="cognoms" id="cognoms" required><br>
+            <input type="text" name="cognoms" id="cognoms"><br>
         <label for="telefon">Telefón</label>
             <input type="tel" name="telefon" id="telefon"><br>
         <label for="email">Correu electrònic</label>
