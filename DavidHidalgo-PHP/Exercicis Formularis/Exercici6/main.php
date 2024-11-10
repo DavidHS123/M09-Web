@@ -18,14 +18,14 @@
                 <option value="si">Sí</option>
                 <option value="no">No</option>
             </select><br>
-        <label for="Adreça">Adreça de l'avís</label>
-            <input type="text" name="Adreça" id="adreça" required><br>
+        <label for="adreça">Adreça de l'avís</label>
+            <input type="text" name="adreça" id="adreça" required><br>
         <label for="descripcio">Descripcio de l'avís:</label>
             <input type="text" name="descripcio" id="descripcio" required><br>
-        <label for="Nom">Nom</label>
-            <input type="text" name="Nom" id="nom" required><br>
-        <label for="Cognoms">Cognoms</label>
-            <input type="text" name="Cognoms" id="cognoms" required><br>
+        <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" required><br>
+        <label for="cognoms">Cognoms</label>
+            <input type="text" name="cognoms" id="cognoms" required><br>
         <label for="telefon">Telefon</label>
             <input type="tel" name="telefon" id="telefon"><br>
         <label for="email">Correu electrònic</label>

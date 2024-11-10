@@ -8,6 +8,7 @@
 <body>
     <h1>Recopilacio de les dades</h1>
     <p>El nom és: <?php echo $_POST['nom']; ?></p>
+    <p>Els cognoms son: <?php echo $_POST['cognoms']; ?></p>
     <p>El email és: <?php echo $_POST['email']; ?></p>
     <p>El telefon és: <?php echo $_POST['telefon']; ?></p>
     <p>GPS: <?php if (isset($_POST['gps'])) echo 'Si'; else echo 'No'; ?></p>
