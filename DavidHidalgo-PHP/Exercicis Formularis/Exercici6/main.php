@@ -15,18 +15,18 @@
         <label for="seguiment"> Voleu rebre un seguiment? </label>
             <select id="seguiment" name="seguiment" required>
                 <option value="" disabled selected>Selecciona una opció</option>
-                <option value="Sí">Sí</option>
-                <option value="No">No</option>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
             </select><br>
         <label for="adreça">Adreça de l'avís</label>
             <input type="text" name="adreça" id="adreça" required><br>
-        <label for="descripcio">Descripció de l'avís:</label>
+        <label for="descripcio">Descripcio de l'avís:</label>
             <input type="text" name="descripcio" id="descripcio" required><br>
         <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" required><br>
         <label for="cognoms">Cognoms</label>
             <input type="text" name="cognoms" id="cognoms" required><br>
-        <label for="telefon">Telefón</label>
+        <label for="telefon">Telefon</label>
             <input type="tel" name="telefon" id="telefon"><br>
         <label for="email">Correu electrònic</label>
             <input type="email" name="email" id="email"><br>

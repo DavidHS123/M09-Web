@@ -59,7 +59,7 @@
         echo "<p>El telefón és: ".$_POST['telefon']."</p>";
         echo "<p>GPS: ".(isset($_POST['gps'])?'Sí':'No')."</p>";
         echo "<p>Mapa: ".(isset($_POST['mapa'])?'Sí':'No')." </p>";
-        echo "<p>Seguiment: ".$_POST['seguiment']." </p>";
+        echo "<p>Seguiment: ".(isset($_POST['seguiment'])?'Sí':'No')." </p>";
         echo "<p>Adreça: ".$_POST['adreça']."</p>";
         echo "<p>Descripció: ".$_POST['descripcio']."</p>";
     }
